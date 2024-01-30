@@ -1,15 +1,18 @@
-
+import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css'
-import TaskListSection from './components/taskList/TaskListSection'
+import TaskListSection from "./components/taskList/TaskListSection";
+import TaskForm from "./components/inputSection/TaskForm";
+
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <TaskListSection/>
-    </>
-  )
+      <TaskForm/>
+      </>
+  );
 }
 
 export default App
